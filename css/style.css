@@ -1,0 +1,25 @@
+
+code{
+    color:#ff9900;
+}
+.logo img{
+    height: 200px;
+}
+.nav_item{
+    display: inline-block;
+}
+.nav-a{
+    color:#0d0d0d;
+    
+}
+.nav-item{
+    font-family: 'Anton', sans-serif;
+    font-size:40px;
+}
+
+.navbar-toggler img{
+    height: 40px;
+}
+
+
+    
