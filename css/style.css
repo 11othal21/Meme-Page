@@ -2,6 +2,9 @@
     margin: 0;
     padding: 0;
 }
+body{
+    height: 1600px;
+}
 html, body{
     height: 100%;
 }
@@ -32,10 +35,38 @@ code{
     min-height: 100%;
 }
 #main{
-    overflow: auto;
     padding-bottom:100%;
 }
+.border{
+    width: 331px;
+    padding: 16px;
+    
+}
 
+.pic1{
+    height: 400px;
+}
+.meme1{
+    height: 100px;
+    margin-left:35%; 
+    margin-right:35%;
+}
+.heart1{
+    display: inline-block;
+}
+.border{
+    width: 331px;
+    padding: 16px;
+    
+}
+.pic2{
+    height: 400px;
+    margin-left:0%; 
+    margin-right:0%;
+}
+.heart2{
+    display: inline-block;
+}
 /* footer */
 
 footer{
@@ -57,11 +88,6 @@ footer{
 }
 .social{
     height: 30px;
-}
-.meme{
-    height: 500px;
-    margin-left:30%; 
-    margin-right:30%;
 }
 
     
