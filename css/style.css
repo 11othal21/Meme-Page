@@ -40,7 +40,6 @@ code{
 .border{
     width: 331px;
     padding: 16px;
-    
 }
 
 .pic1{
@@ -66,6 +65,18 @@ code{
 }
 .heart2{
     display: inline-block;
+}
+.pic3{
+    height: 400px;
+    margin-left:0%; 
+    margin-right:0%;
+}
+.heart3{
+    display: inline-block;
+}
+.top{
+    width: 100px ;
+    float: right;
 }
 /* footer */
 
