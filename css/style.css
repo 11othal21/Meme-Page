@@ -17,9 +17,64 @@
   display: flex;
     flex-direction: row;
 }
+  /* header of about */
 
+  .nav-about{
+    color:white; 
+}   
+.nav-item-about{
+    font-family: 'Anton', sans-serif;
+    font-size:40px;
+    display: flex;
+    flex-direction: row;
+}
+.navbar-about{
+    display: flex;
+    flex-direction: row;
+    background-color: #000 ;
+    padding: 8px 16px 8px 16px;
+}
 
+/* social */
 
+.border{
+  width: 331px;
+  padding: 16px;
+
+}
+
+.pic1{
+  height: 400px;
+}
+.meme1{
+  height: 100px;
+  margin-left:35%; 
+  margin-right:35%;
+}
+.heart1{
+  display: inline-block;
+}
+.border{
+  width: 331px;
+  padding: 16px;
+
+}
+.pic2{
+  height: 400px;
+  margin-left:0%; 
+  margin-right:0%;
+}
+.heart2{
+  display: inline-block;
+}
+.pic3{
+  height: 400px;
+  margin-left:0%; 
+  margin-right:0%;
+}
+.heart3{
+  display: inline-block;
+}
 
 /* body */
 
@@ -41,12 +96,12 @@
 
 @import url(https://fonts.googleapis.com/css?family=Press+Start+2P);
 
-html{
+.back{
   background-color:#000;
   border-bottom:solid 5px blue;
   border-top:solid 5px blue;
   overflow-x:hidden;
-  padding-bottom:139px;
+  padding-bottom:160px;
 }
 
 p{
@@ -58,7 +113,8 @@ p{
 }
 
 .pacman{
-  margin:40px 10px;
+  background-color:#000;
+  /* margin:40px 10px; */
 }
 
 .pacman-top{
@@ -227,9 +283,7 @@ animation: eat 1s linear 0s infinite;
 }
 
 
-.body1{
-    background-color: black;
-}
+
 
 * {
     box-sizing: border-box;
@@ -284,6 +338,10 @@ animation: eat 1s linear 0s infinite;
         display: block;
         position: static;
     }
+
+  
+  
+
 
 
 
