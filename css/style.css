@@ -78,19 +78,7 @@
 
 /* body */
 
-.bg, .bg2, .bg3{
-  background-image: url('https://i.kym-cdn.com/photos/images/original/001/503/249/9e2.jpg');
-  background-repeat: no-repeat;
-  height: 500px;
-  background-position: center;
-  background-size: cover;
-}
-.bg2{
-  background-image: url('https://i.imgur.com/JWWiF0F.jpg');
-}
-.bg3{
-  background-image: url('https://i.imgur.com/SEdmZpC.jpg');
-}
+
 
 /* pac-man */
 
@@ -244,36 +232,6 @@ animation: eat 1s linear 0s infinite;
 
 
 
-/* footer */
-
-
-
-.wrapper1{
-    width: 100%;
-    background-color:#0d0d0d;
-    display: flex;
-    flex-wrap: nowrap;
-    position: fixed;
-    bottom: 0;
-    height: 70px;
-}
-.container-foot{
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-
-}
-.nav-link1{
-    left: 0;
-    bottom: 0;
-    color:#f2f2f2;
-    
-}
-.navfoot{
-    font-family: 'Anton', sans-serif;
-    font-size: 15px;
-    display: inline-block;
-}
 
 
 /* photo-grid */
